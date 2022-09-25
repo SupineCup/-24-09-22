@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+int main(){
+double x,y;
+cout << "Значение переменной x: ";
+cin >> x;
+y = 3*pow(x,6)-6*pow(x,2)-7;
+cout << "значение функции = " << y << "." << endl;
+return 0;
+
+#include <iostream>
+using namespace std;
+int main(){
+	double A,x;
+	cout << "значение переменной A: ";
+	cin >> A;
+	x = A*A;
+	cout << "A v степень 2 = " << x << "." << endl;
+	x = x*x;
+	cout << "A v степень 4 = " << x << "." << endl;
+	x = x*x;
+	cout << "A v степень 8 = " << x << "." << endl;
+	return 0;
+
+	#include <iostream>
+using namespace std;
+int main()
+	const double pi=3.14;
+	double a_r,a_g;
+	cout << "введите значение угла в радианахъ: ";
+	cin >> a_r;
+	// 180 градусов = pi => pi = 180 градусов => 1 rad = 180 градусов/pi => n rad = n*180 градусов/pi.
+	a_g = a_r*180/pi;
+	cout << "значение угла в градусах: " << a_g << "." << endl;
+	return 0;
+
+#include <stdio.h>
+int main(void)
+float Tc;
+printf("Tc:");
+scanf ("%f", &Tc);
+float Tf;
+Tf=9/5*Tc+32;
+printf("%f\n",Tf);
+return 0;
+
+#include <stdio.h>
+#include <math.h>
+ int main(void)
+float A,B;
+printf("A:");
+scanf ("%f", &A);
+printf("B:");
+scanf ("%f", &B);
+printf("x:%f\n",-1*B/A);
+return 0;
+}
